@@ -1,30 +1,34 @@
-// Log number
-console.log(100);
+// Log số
+console.log(40);
 
-// Log string
+// Log chuỗi kí tự
 console.log('Hello World');
 
-// Log multiple values
+// Log nhiều biến ,gía trị 
 console.log(20, 'Hello', true);
 
-// Log a variable
+// Log ra giá trị của một biến
 const x = 100;
 console.log(x);
 
 // Console error & warning
-console.error('Alert');
+console.error('Alert','dòng này bị lỗi');
 console.warn('Warning');
 
-// Log object as table
+// Log đối tượng trong bảng
 console.table({ name: 'Brad', email: 'brad@gmail.com' });
 
-// Group console commands
+// Nhóm lệnh console
 console.group('simple');
 console.log(x);
 console.error('Alert');
 console.warn('Warning');
 console.groupEnd();
 
-// Add CSS to logs
+// thêm thuộc tính styles vào log 
 const styles = 'padding: 10px; background-color: white; color: green';
 console.log('%cHello World', styles);
+
+
+
+
